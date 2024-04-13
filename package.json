@@ -1,0 +1,21 @@
+{
+  "name": "learn-nodejs",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is turtorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "node inspect server.js"
+  },
+  "author": "Tran Duc Viet",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "mongoose": "^6.9.2",
+    "nodemon": "^2.0.20"
+  }
+}
